@@ -1,0 +1,101 @@
+/*
+CSS assignments for the UI.
+*/
+
+body {
+  background-color: black;
+  font-family: "Tahoma", Geneva, sans-serif;
+  /*font-weight: bold;*/
+  color: #CCCCCC;
+
+}
+
+div {
+    background-color: black;
+}
+
+table {
+  table-layout: fixed;
+  -webkit-border-vertical-spacing: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  font-size: x-small;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  /*line-height: 90px; */
+}
+
+img {
+  display: block;
+}
+
+tr {
+}
+
+td {
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.dial {
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+  left: 0px;
+}
+
+
+#mainGridContainer {
+border-style: solid;
+border-color: black;
+border-collapse: collapse;
+}
+
+#mainGridTable {
+  background-color: black;
+}
+
+#seqGridTable {
+  background-color: black;
+}
+
+#controlGridTable {
+  background-color: black;
+}
+
+#mixGridTable {
+  background-color: black;
+}
+
+#trackGridTable {
+  background-color: black;
+}
+
+#songGridTable {
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #000000;
+}
